@@ -108,8 +108,8 @@ namespace ClubeLeitura.ConsoleApp
                 {
                     Amigo amigo = ObterAmigo();
 
-                    amigos[i].nomeAmigo = nome;
                     amigos[i] = amigo;
+                    amigos[i].nomeAmigo = nome;
 
                     break;
                 }

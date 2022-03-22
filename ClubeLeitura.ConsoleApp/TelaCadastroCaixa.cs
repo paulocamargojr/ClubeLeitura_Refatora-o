@@ -74,8 +74,8 @@ namespace ClubeLeitura.ConsoleApp
                 {
                     Caixa caixa = ObterCaixa();
 
-                    caixas[i].numero = numeroCaixa;
                     caixas[i] = caixa;
+                    caixas[i].numero = numeroCaixa;
 
                     break;
                 }
